@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.container {
+  width: 400px;
+  height: 400px;
+  background-image: url('Jen Sacky.jpg');
+  background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: repeat(100, 1fr);
+  grid-template-columns: repeat(100, 1fr);
+}
+@font-face {
+  font-family: volant;
+  src: url(volant.ttf);
+}
+.footer {
+  font-family: 'volant';
+  font-size: 20px;
+  direction: rtl;
+  padding: 0px 15px;
+  grid-column: 6/96;
+  grid-row: 66/-6;
+  background-color: #000;
+}
